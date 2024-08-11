@@ -1,15 +1,16 @@
 {
   "expo": {
     "name": "UserList",
+    "scheme": "UserList",
     "slug": "UserList",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon1.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#DBDBDB"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.arkhsat.UserList"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f5a95859-6ba1-4b7a-ba96-c2e4cb057bb5"
+      }
     }
   }
 }
